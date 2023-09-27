@@ -1,0 +1,66 @@
+/* CSS page */
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: #20603D; 
+    margin: 0;
+    padding: 100px;
+}
+/* Style the form */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #00000;
+}
+form {
+    background-color: #fc4903;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 2px solid #0f0f0f;
+}
+label {
+    display: block;
+    font-weight: bold;
+}
+#email{
+	background-color: #FFFFFF;
+	width: 98%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#phonenumb{
+	background-color: #FFFFFF;
+	width: 98%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#dob{
+	background-color: #FFFFFF;
+    width: 98%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#submit {
+    background-color: #7D7F7D;
+    color: #000000;
+    width: 16%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+@media only screen and (min-width: 800px){
+  #info{
+    width: 65%;
+    flex-wrap: nowrap;
+  }
+}
