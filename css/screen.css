@@ -1,6 +1,6 @@
 /* CSS page */
 body {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Georgia", cursive;
     background-color: #20603D; 
     margin: 0;
     padding: 100px;
@@ -13,7 +13,7 @@ h1 {
     color: #00000;
 }
 form {
-    background-color: #fc4903;
+    background-color: #000000;
     padding: 25px;
     border-radius: 10px;
     max-width: 500px;
